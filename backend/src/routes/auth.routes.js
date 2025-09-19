@@ -18,5 +18,5 @@ router.post('/login', async (req, res) => {
    const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
    // Retorna o token como uma resposta JSON para o frontend
    res.json({ token });
-});
+});   
 module.exports = router; // A rota de registro e outras rotas públicas também seriam adicionadas aqui.
