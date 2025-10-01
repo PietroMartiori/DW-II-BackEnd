@@ -9,7 +9,7 @@ const users = [
    {
       id: 2,
       email: 'usuario2@exemplo.com',
-      password: '$2b$10$N48SiJKMygDjo46T/mFpgepcGpQetix8/9kNbx6VLwStIaRtlkQtW'
+      password: 'senha1234'
    },
 ];
 
